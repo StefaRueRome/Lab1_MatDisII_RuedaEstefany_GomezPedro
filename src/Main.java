@@ -12,8 +12,9 @@ public class Main {
             if (cadena.isEmpty() == true) {
                 continue;
             }
-            if (cont > 0) System.out.println();
-
+            if (cont > 0) {
+                System.out.println();
+            }
             int tamanno=cadena.length();
             for (int periodo = 1; periodo < tamanno; periodo++) {
                 if ((tamanno % periodo) != 0) {
